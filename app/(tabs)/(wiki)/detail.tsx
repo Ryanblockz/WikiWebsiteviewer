@@ -1,7 +1,5 @@
 import { StyleSheet } from 'react-native';
-import App from '../../../components/WebView';
-import EditScreenInfo from '@/components/EditScreenInfo';
-import { Text, View } from '@/components/Themed';
+import { View } from '@/components/Themed';
 import { useGlobalSearchParams } from 'expo-router';
 import WebView from 'react-native-webview';
 

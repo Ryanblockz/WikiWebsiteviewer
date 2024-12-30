@@ -7,6 +7,8 @@ export default function App() {
     const [url, setUrl] = useState(``)
 
     return (
+
+
         <View style={styles.container}>
             <TextInput
                 style={styles.input}
@@ -19,6 +21,7 @@ export default function App() {
             />
             <WebView source={{ uri: url }} style={styles.webview} />
         </View>
+
     );
 }
 
@@ -26,10 +29,11 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         marginTop: Constants.statusBarHeight,
+        color: 'white',
         width: '100%',
     },
     input: {
-        color: 'white',
+        color: '#ccc',
         height: 40,
         borderColor: '#ccc',
         borderWidth: 1,

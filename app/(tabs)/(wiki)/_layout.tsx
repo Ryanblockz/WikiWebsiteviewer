@@ -14,10 +14,10 @@ export default function Layout() {
             }}>
             {/* Optionally configure static options outside the route.*/}
             <Stack.Screen name="index" options={{
-                title: "Wikipedia Lookup App"
+                title: "Wikipedia Search"
             }} />
             <Stack.Screen name="detail" options={{
-                title: "details"
+                title: "Info"
             }} />
         </Stack>
     );

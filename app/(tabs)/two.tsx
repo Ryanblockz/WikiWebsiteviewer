@@ -63,7 +63,6 @@ export default function TabTwoScreen() {
 
   return (
     <View style={styles.container}>
-
       <App />
     </View>
   );
